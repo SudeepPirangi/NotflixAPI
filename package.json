@@ -1,0 +1,33 @@
+{
+  "name": "notflix-api",
+  "version": "1.0.0",
+  "description": "Contains all the APIs for Notflix app which is on React framework. These APIs are built using NodeJS, Express, MongoDB ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SudeepPirangi/NotflixAPI.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Sudeep Pirangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SudeepPirangi/NotflixAPI/issues"
+  },
+  "homepage": "https://github.com/SudeepPirangi/NotflixAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
