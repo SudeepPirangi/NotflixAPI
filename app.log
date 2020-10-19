@@ -1,1 +1,5 @@
 [0mGET /getFlix [36m304[0m 359.783 ms - -[0m
+::ffff:127.0.0.1 - - [19/Oct/2020:03:18:07 +0000] "GET /getFlix HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0"
+::ffff:127.0.0.1 - - [19/Oct/2020:03:28:13 +0000] "GET /getFlix HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0"
+::1 - - [19/Oct/2020:03:39:15 +0000] "POST /addFlix HTTP/1.1" 200 26 "-" "PostmanRuntime/7.26.5"
+::1 - - [19/Oct/2020:03:40:00 +0000] "GET /getFlix HTTP/1.1" 200 1565 "-" "PostmanRuntime/7.26.5"
