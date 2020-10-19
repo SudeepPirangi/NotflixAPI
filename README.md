@@ -4,15 +4,17 @@
 - These APIs are built using NodeJS, Express, MongoDB.
 - Hosted by Heroku from Github repository.
 
-[NotflixAPI](https://notflix-node-api.herokuapp.com)
+Production URL: [https://notflix-node-api.herokuapp.com](https://notflix-node-api.herokuapp.com)
 
 ## Deployment Notes
 
-This app deployment is directly connected to Sudeep's Github repos. Find a repo as [NotlfixAPI/master](https://github.com/SudeepPirangi/NotflixAPI.git/master) branch
+This app deployment is directly connected to Sudeep's Github repos.
+
+Everything that is pushed to [NotflixAPI/master](https://github.com/SudeepPirangi/NotflixAPI.git/master) branch are auto-deployed to Production.
 
 ## Deployment Configurations
 
-Add `engines` entry in `package.json` file to mention node version used for development
+Add `engines` entry in `package.json` file to mention node version used for development.
 
 ```
 "engines": {
