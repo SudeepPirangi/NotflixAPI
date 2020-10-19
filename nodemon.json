@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "sudeep",
+    "MONGO_PWD": "sudeep",
+    "MONGO_DB": "Notflix"
+  }
+}
