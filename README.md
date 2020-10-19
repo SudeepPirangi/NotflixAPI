@@ -1,7 +1,7 @@
 ## NotflixAPI
 
-** Contains all the APIs for Notflix app which is built on React framework.
-** These APIs are built using NodeJS, Express, MongoDB.
+\*\* Contains all the APIs for Notflix app which is built on React framework.
+\*\* These APIs are built using NodeJS, Express, MongoDB.
 \*\* Hosted by Heroku from Github repository.
 
 [NotflixAPI](https://notflix-node-api.herokuapp.com)
@@ -12,7 +12,7 @@ This app deployment is directly connected to Sudeep's Github repos. Find a repo 
 
 ## Deployment Configurations
 
-\*\* Add 'engines' entry in `package.json` file to mention node version used for development
+\*\* Add `engines` entry in `package.json` file to mention node version used for development
 
 ```
 "engines": {
