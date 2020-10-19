@@ -37,9 +37,9 @@ app.use((req, res, next) => {
 
 app.use(flixRoute);
 
-const mongo_user = process.env.MONGO_USER || myProcess.env.MONGO_USER;
-const mongo_pwd = process.env.MONGO_PWD || myProcess.env.MONGO_PWD;
-const mongo_db = process.env.MONGO_DB || myProcess.env.MONGO_DB;
+const mongo_user = process.env.MONGO_USER;
+const mongo_pwd = process.env.MONGO_PWD;
+const mongo_db = process.env.MONGO_DB;
 
 mongoose
   .connect(
