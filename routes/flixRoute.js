@@ -5,7 +5,9 @@ const router = express.Router();
 
 const flixController = require("../controllers/flixController");
 
-router.get("/getFlix", flixController.getFlix);
+router.get("/getAllFlix", flixController.getAllFlix);
+
+router.get("/getFlix/:flixId", flixController.getFlix);
 
 router.post("/addFlix", flixController.addFlix);
 
