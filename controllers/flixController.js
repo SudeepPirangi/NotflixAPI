@@ -3,7 +3,7 @@ const FlixModel = require("../models/flixModel");
 
 const flix = [];
 
-exports.getFlix = (req, res, next) => {
+exports.getAllFlix = (req, res, next) => {
   FlixModel.find()
     .then((data) => {
       // console.log("getFlix", data);
@@ -11,6 +11,24 @@ exports.getFlix = (req, res, next) => {
     })
     .catch((err) => {
       console.log("Error in fetching flix", err);
+    });
+};
+
+exports.getFlix = (req, res, next) => {
+  const flixId = req.params.flixId;
+  FlixModel.findById(flixId)
+    .then((flix) => {
+      if (!flix) {
+        console.log("Flix not found with Id", flixId);
+        res.status(404).json({
+          message: "Flix not found with Id" + flixId,
+        });
+      }
+      console.log("Retrieved flix", flix);
+      res.status(200).json(flix);
+    })
+    .catch((err) => {
+      console.log("Error in finding flix", err);
     });
 };
 
